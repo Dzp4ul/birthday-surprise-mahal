@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love! 💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Floating Hearts -->
+        <div class="hearts">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+
+        <!-- Initial View - Only Button -->
+        <div class="initial-view" id="initialView">
+            <button class="main-surprise-btn" onclick="revealSurprise()">🎁 Happy Birthday Mahal ko! 🎁</button>
+        </div>
+
+        <!-- Main Content - Hidden Initially -->
+        <div class="main-content" id="mainContent" style="display: none;">
+            <h1 class="title">Happy Birthday</h1>
+            <h2 class="subtitle">My Pretty Mahal! 💖</h2>
+            
+            <div class="birthday-cake"> 
+                <div class="cake">
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-box">
+                <p class="love-message">
+                    Today is your special day, and I want you to know how much you mean to me. 
+                    Palagi kumu tyu keni and tandanan mung ika mung peka malagung babaeng kareng mata ku.
+                    See you soon mahal ko! Kaluguran daka sobra!
+                </p>
+            </div>
+
+            <button class="surprise-btn" onclick="showSurprise()">Click for a Special Surprise! 🎁</button>
+
+            <div class="surprise-content" id="surpriseContent">
+                <div class="photo-gallery">
+                    <h3 class="gallery-title">Our Beautiful Memories Mahal💕</h3>
+                    <div class="photo-grid">
+                        <div class="polaroid">
+                            <img src="images/1bb434ea-e238-4d4c-9282-78908bd8b58b.jpg" class="photo" alt="Memory 1">
+                        </div>
+                        <div class="polaroid">
+                            <img src="images/4d734f00-6d7f-4ba8-9e64-7951a6abe587.jpg" class="photo" alt="Memory 2">
+                        </div>
+                        <div class="polaroid">
+                            <img src="images/707a755e-85db-4cec-aca5-27d26b948726.jpg" class="photo" alt="Memory 3">
+                        </div>
+                        <div class="polaroid">
+                            <img src="images/b2ab6551-31b8-48dc-8d9f-92914ff05399.jpg" class="photo" alt="Memory 4">
+                        </div>
+                        <div class="polaroid">
+                            <img src="images/f1dc3d0c-bf45-48b8-b0ec-28a3d1dcc1f2.jpg" class="photo" alt="Memory 5">
+                        </div>
+                        <div class="polaroid">
+                            <img src="images/b75ad635-fafe-41cf-8c2f-31bfe79acaf9.jpg" class="photo" alt="Memory 6">
+                        </div>
+                    </div>
+                </div>
+                <p class="surprise-message">
+                    Eka sana magbayu mahal ko, sobrang swerti ku keka alanakung akit kalupa mu mahal ko tandanan muyan
+                    imissyou so much na mahal ko, malapit naku muli mi akit tana ulit muah!! 
+                </p>
+            </div>
+
+            
+            </div>
+
+            <div class="balloons">
+                <div class="balloon balloon-1"></div>
+                <div class="balloon balloon-2"></div>
+                <div class="balloon balloon-3"></div>
+                <div class="balloon balloon-4"></div>
+            </div>
+        </div>
+
+        <!-- Confetti -->
+        <div class="confetti">
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+            <div class="confetti-piece"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
